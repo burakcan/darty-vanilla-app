@@ -43,9 +43,7 @@
         "test": "darty test",
         "bundle": "darty bundle",
         "bundle:prod": "darty bundle:prod",
-        "containerize": "darty containerize",
-        "aws:copy": "aws s3 sync ./dist s3://darty-react-app",
-        "aws:open": "start http://darty-react-app.s3-website-eu-west-1.amazonaws.com"
+        "containerize": "darty containerize"
     },
     "dependencies": {
         "darty": "^0.50.2",
